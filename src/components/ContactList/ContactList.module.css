@@ -1,0 +1,28 @@
+
+.contactItem {
+display: flex;
+gap: 10px   ;
+list-style: none;
+justify-content: space-between;
+}
+.contactItem:not(:last-child) {
+  margin-bottom: 15px; 
+}
+
+.wrapperContact{
+    display: flex;
+    gap: 7px;
+     align-items: center;
+     
+}
+
+
+.deleteBtn {
+    /* margin: 0 auto; */
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #ffff;
+}
