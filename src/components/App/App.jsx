@@ -23,7 +23,7 @@ export class App extends React.Component {
 const exsistingContact=this.state.contacts.some(({name}) => name.toLowerCase() === contact.name.toLowerCase())
 
     if (exsistingContact) {
-      Notify.failure(`${contact} is already in contacts`);
+      Notify.failure(`${contact.name} is already in contacts`);
       return
     } 
     
